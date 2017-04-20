@@ -49,8 +49,8 @@ open class SKPhotoBrowser: UIViewController {
     open weak var delegate: SKPhotoBrowserDelegate?
     
     // photos
-    var photos: [SKPhotoProtocol] = [SKPhotoProtocol]()
-    var numberOfPhotos: Int {
+    open var photos: [SKPhotoProtocol] = [SKPhotoProtocol]()
+    open var numberOfPhotos: Int {
         return photos.count
     }
     
